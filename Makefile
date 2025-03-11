@@ -1,3 +1,15 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    Makefile                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: keanders <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2025/03/07 15:29:26 by keanders          #+#    #+#              #
+#    Updated: 2025/03/07 15:29:28 by keanders         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
 
 # Project Name
 NAME = minip
@@ -15,7 +27,7 @@ INCLUDES = -I/usr/include -Imlx_linux
 LDFLAGS = -Lmlx_linux -lmlx_Linux -L/usr/lib -lXext -lX11 -lm -lz
 
 # Source Files
-SRCS = minip.c
+SRCS = minip.c square.c
 
 # Object Files
 OBJ = $(SRCS:.c=.o)
